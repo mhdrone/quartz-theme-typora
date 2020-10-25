@@ -1,24 +1,20 @@
 # Quartz Theme for Typora
 
-A minimalistic theme for documentation, note-taking and code snippets. It contains a light theme, **Milky Quartz**, and a dark theme, **Smoky Quartz**.
+This is a fork of the [Quartz](https://github.com/troennes/quartz-theme-typora) theme written by [troennes](https://github.com/troennes) for typoria. Modified based on personal preferences.
 
-![screen1](/media/preview.png)
+![light window preview](media/light-preview.png)  
+![dark window preview](media/dark-preview.png)
 
-Tested on Windows and Linux. The dark theme does not currently support Windows "Unibody" style. Not fully tested, but should work on MacOS.
+Differences from orginial theme:
+- Changed the header tag icon when the window is less than 640px wide  
+  ![light header tag](media/light-header-tag.png)  
+  ![dark header tag](media/dark-header-tag.png)
+- Added underlines under level 1 and 2 headers
+- The newline indicator is a `<br />` instead of the default down arrow  
+  ![light newline tag](media/light-newline-tag.png)  
+  ![dark newline tag](media/dark-newline-tag.png)
+- Disabled the light cursor for darkmode (if you need a light cursor uncomment
+  the comment in `quartz-smoky.css`)
+- Monospace font is Consolas rather than Inconsolata.
 
-## How to install
-
-1. Download [latest release](https://github.com/troennes/quartz-theme-typora/releases/latest).
-2. Go to Typora Preferences, select "Open Theme Folder".
-3. Copy or move .css files and the "quartz" folder (with fonts), into the newly opened folder.
-4. Restart Typora, then select it from Themes menu.
-
-## More screenshots
-
-![screen2](/media/milky-quartz1.png)
-
-![screen3](/media/milky-quartz2.png)
-
-![screen4](/media/smoky-quartz1.png)
-
-![screen5](/media/smoky-quartz2.png)
+Tested on Windows.

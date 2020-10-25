@@ -1,7 +1,7 @@
 @import 'night/codeblock.dark.css';
 @import 'night/mermaid.dark.css';
 @import 'night/sourcemode.dark.css';
-@import 'quartz-milky.css';
+@import 'quartz-milky-modified.css';
 
 :root {
   --accented-background-color: #1e1e1e;
@@ -32,9 +32,12 @@
   background-color: var(--hover-bg-color);
 }
 
+/* changed the cursor to a white variant for dark mode, my cursor works well in
+   dark mode already so I disabled it
 #write {
   cursor: -webkit-image-set(url("night/cursor.png") 1x, url("night/cursor@2x.png") 2x) 8 8, auto;
 }
+*/
 
 h1,
 h2,
@@ -91,4 +94,8 @@ sup.md-footnote {
 
 .on-focus-mode #typora-source .CodeMirror-code>*:not(.CodeMirror-activeline) * {
   color: #4f525a !important;
+}
+
+footer.ty-footer {
+  border-top-color: #323232;
 }
